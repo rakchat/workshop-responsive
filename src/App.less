@@ -1,0 +1,50 @@
+@import "antd/dist/antd.less";
+
+.ant-layout-header {
+  background: #002d2d;
+}
+
+.ant-layout-header .ant-menu {
+  line-height: initial;
+}
+
+.ant-menu {
+  background: #002d2d;
+  font-size: "20px" !important;
+}
+.ant-menu-horizontal {
+  border-bottom: none;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: none;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after {
+  border-bottom: none;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu::after {
+  border-bottom: none;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  padding: 0px 10px;
+}
+.ant-input-lg {
+  border-radius: 4px;
+}
+.ant-btn-primary {
+  border-radius: 4px;
+}
+.anticon + span {
+  margin-right: 4px !important;
+  margin-left: 0px !important;
+}
+.ant-menu-horizontal > .ant-menu-submenu > .ant-menu-submenu-title {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+}
+.ant-menu-item .ant-menu-item-icon,
+.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-item .anticon,
+.ant-menu-submenu-title .anticon {
+  font-size: 10px;
+}

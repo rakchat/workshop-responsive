@@ -1,0 +1,435 @@
+@import url(//db.onlinewebfonts.com/c/f5e745006bde1613ea8dc41d713bf031?family=Shopify+Sans+Web+Regular);
+@font-face {
+  font-family: "Shopify Sans Web Regular";
+  src: url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot");
+  src: url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.svg#Shopify Sans Web Regular")
+      format("svg");
+}
+@import url(//db.onlinewebfonts.com/c/d2113531b60b80abb9710c514ca5fcfa?family=Shopify+Sans+Web+Bold);
+@font-face {
+  font-family: "Shopify Sans Web Bold";
+  src: url("//db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.eot");
+  src: url("//db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.svg#Shopify Sans Web Bold")
+      format("svg");
+}
+
+* {
+  font-family: "Shopify Sans Web Regular";
+}
+
+/* ---------------- */
+
+.col-container-banner {
+  display: flex !important;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.banner-text-left-1 {
+  font-family: "Shopify Sans Web Bold";
+  color: #ffffff;
+  font-size: 4em;
+  line-height: 3.5rem;
+  letter-spacing: -0.084375rem;
+  padding-bottom: 0.5em;
+}
+.banner-text-left-2 {
+  color: #ffffff;
+  margin-bottom: 32px !important;
+  font-size: 1.125em;
+}
+
+.content-2 {
+  font-size: 1.5em;
+  margin-bottom: 0.8333333333em;
+}
+.content-ul {
+  font-family: "Shopify Sans Web Bold";
+  color: #008060;
+  padding-right: 1.2em;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.container-3 {
+  display: flex !important;
+  align-items: center;
+  padding: 0 8.3333333333%;
+}
+.content-3 {
+  font-size: 1.875em;
+  margin-bottom: 0.6em;
+}
+.content-3-img {
+  display: flex;
+  padding: 2.5625em 5.1875em;
+  border-radius: 1.875em;
+  background: #fff8f6;
+  justify-content: center;
+  max-width: fit-content;
+}
+.container-4 {
+  display: flex !important;
+  align-items: center;
+  padding: 0 8.3333333333%;
+}
+.content-4 {
+  font-size: 1.875em;
+  margin-bottom: 0.6em;
+}
+.content-4-img {
+  display: flex;
+  padding: 3.625em 4.0625em;
+  border-radius: 1.875em;
+  background: #c6f0fc;
+  justify-content: center;
+  max-width: fit-content;
+}
+.p-content-4 {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+.content-5-img {
+  display: block;
+  height: auto;
+  background: #f3fcf4;
+}
+.content-6-img {
+  display: flex;
+  border-radius: 1.875em;
+  justify-content: center;
+  max-width: fit-content;
+}
+.content-6-img-logo {
+  display: flex;
+  justify-content: center;
+}
+.icon-content-6 {
+  background-color: black;
+  padding: 10px;
+  border-radius: 100%;
+}
+.container-7 {
+  display: flex !important;
+  align-items: center;
+  padding: 0 8.3333333333%;
+}
+.content-7 {
+  font-family: "Shopify Sans Web Bold";
+  font-size: 1.875em;
+  margin-bottom: 0.6em;
+}
+.content-7-img {
+  display: flex;
+  padding: 3.625em 4.0625em;
+  border-radius: 1.875em;
+  background: #c6f0fc;
+  justify-content: center;
+  max-width: fit-content;
+}
+.p-content-7 {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+.content-8-title {
+  font-weight: 500;
+  font-size: 3em;
+  line-height: 3.75rem;
+  letter-spacing: -0.0625rem;
+  width: 80%;
+  margin-bottom: 0.8em;
+}
+.content-8 {
+  font-family: "Shopify Sans Web Bold";
+  font-size: 1.5em;
+  margin-bottom: 0.8333333333em;
+}
+.mb-content-8 {
+  margin-bottom: 20px;
+}
+.container-8 {
+  background-color: #fbf7ed;
+  padding: 20px 10px 0px 40px;
+}
+
+/* responsive */
+
+.container-padding {
+  padding: 0px 20px !important;
+}
+.content-padding {
+  padding: 20px !important;
+}
+.menu-mobile {
+  display: flex !important;
+  width: 100%;
+  justify-content: end;
+  color: #ffffff;
+  font-size: 20px;
+}
+.head-menu {
+  display: none !important;
+}
+.content-5 {
+  padding-top: 2em;
+  font-family: "Shopify Sans Web Bold";
+  font-weight: 500;
+  font-size: 3.75em;
+  line-height: 3.75rem;
+  letter-spacing: -0.0625rem;
+  max-width: 60%;
+  margin-inline: auto;
+  text-align: center;
+}
+.contain-padding {
+  padding-bottom: 6em;
+}
+.flow-reverse-8 {
+  flex-flow: column-reverse !important;
+}
+.title-9 {
+  font-family: "Shopify Sans Web Bold";
+  font-weight: 700;
+  font-size: 2.25em;
+  line-height: 3rem;
+  margin-bottom: 16px;
+}
+.medium-9 {
+  font-size: 1.25em;
+  line-height: 1.875em;
+  color: #6b7177;
+  margin-bottom: 32px !important;
+}
+
+/* xs */
+@media screen and (max-width: 767.98px) {
+  /* ~ */
+  .content-1 {
+    font-family: "Shopify Sans Web Bold";
+    font-size: 2em;
+    line-height: 2.125rem;
+    letter-spacing: -0.58;
+    padding-right: 0;
+  }
+  .banner-text-left-1 {
+    font-family: "Shopify Sans Web Bold";
+    color: #ffffff;
+    font-size: 3em;
+    line-height: 3rem;
+    letter-spacing: -0.084375rem;
+    padding-bottom: 0.5em;
+  }
+  .flow-reverse {
+    flex-flow: column-reverse !important;
+  }
+  .img-1 {
+    width: 80%;
+    height: 300px;
+  }
+  .content-1-img {
+    display: flex;
+    justify-content: center;
+    border-radius: 1.875em;
+    margin-bottom: 64px;
+    height: 80vh;
+    background-color: #956062;
+    align-items: center;
+  }
+  .content-5-ul {
+    font-size: 3em;
+  }
+  .content-5 {
+    font-size: 2.5em;
+    line-height: 2.75rem;
+    letter-spacing: -0.0625rem;
+  }
+  .contain-padding {
+    padding-inline: 1em;
+  }
+  .icon-hide {
+    display: none;
+  }
+  .content-6-title {
+    font-size: 1.25em;
+    margin-bottom: 0.9em;
+  }
+  .content-6-medium {
+    font-size: 1.375em;
+    line-height: 1.5rem;
+    margin-bottom: 16px;
+  }
+  .content-6-bottom {
+    font-size: 1em;
+  }
+  .flow-reverse-8 {
+    flex-flow: column-reverse !important;
+  }
+  .content-8-title {
+    font-size: 2.125em;
+    line-height: 2.375rem;
+    width: 100%;
+  }
+}
+/* md */
+@media screen and (min-width: 768px) {
+  .banner-text-left-1 {
+    font-family: "Shopify Sans Web Bold";
+    color: #ffffff;
+    font-size: 2.125em;
+    line-height: 2.1rem;
+    letter-spacing: -0.084375rem;
+    padding-bottom: 0.5em;
+  }
+  .content-1 {
+    font-family: "Shopify Sans Web Bold";
+    font-size: 3.75em;
+    line-height: 4.5rem;
+    letter-spacing: -0.0625rem;
+    padding-right: 24.9999999999%;
+  }
+  .contain-banner {
+    padding-right: 10%;
+    align-items: flex-end;
+  }
+  .container-padding {
+    padding: 0px 40px !important;
+  }
+  .content-padding {
+    padding: 50px !important;
+  }
+  .flow-reverse {
+    flex-flow: row !important;
+  }
+  .img-1 {
+    width: 70%;
+    height: 400px;
+  }
+  .content-1-img {
+    display: flex;
+    justify-content: center;
+    border-radius: 1.875em;
+    margin-bottom: 64px;
+    height: 35.25em;
+    background-color: #956062;
+    align-items: flex-end;
+  }
+  .content-5-ul {
+    font-size: 2.5em;
+    line-height: 2.75rem;
+    letter-spacing: -0.0625rem;
+    color: #004c3f;
+  }
+  .content-5-li {
+    font-size: 1.125em;
+    line-height: 1.5rem;
+  }
+  .contain-padding {
+    padding-inline: 3em;
+  }
+  .content-6-title {
+    font-size: 1.25em;
+    margin-bottom: 0.9em;
+  }
+  .content-6-medium {
+    font-size: 1.375em;
+    line-height: 1.5rem;
+  }
+  .content-6-bottom {
+    font-size: 1em;
+    margin-bottom: 0.75em;
+  }
+}
+/* lg */
+@media screen and (min-width: 992px) {
+  .head-menu {
+    display: flex !important;
+  }
+  .menu-mobile {
+    display: none !important;
+  }
+  .container-padding {
+    padding: 0px 80px !important;
+  }
+  .banner-text-left-1 {
+    font-family: "Shopify Sans Web Bold";
+    color: #ffffff;
+    font-size: 4em;
+    line-height: 3.5rem;
+    letter-spacing: -0.084375rem;
+    padding-bottom: 0.5em;
+  }
+  .content-1 {
+    font-family: "Shopify Sans Web Bold";
+    font-size: 3.75em;
+    line-height: 4.5rem;
+    letter-spacing: -0.0625rem;
+    padding-right: 24.9999999999%;
+  }
+  .contain-banner {
+    padding-right: 10%;
+    align-items: flex-end;
+  }
+  .content-padding {
+    padding: 80px !important;
+  }
+  .flow-reverse {
+    flex-flow: row !important;
+  }
+  .img-1 {
+    width: 70%;
+    height: 400px;
+  }
+  .content-1-img {
+    display: flex;
+    justify-content: center;
+    border-radius: 1.875em;
+    margin-bottom: 64px;
+    height: 35.25em;
+    background-color: #956062;
+    align-items: flex-end;
+  }
+  .content-5-ul {
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 4rem;
+    letter-spacing: -0.0625rem;
+    margin-bottom: 1.0625rem;
+    color: #004c3f;
+  }
+  .content-5-li {
+    font-size: 1.125em;
+    line-height: 1.5rem;
+  }
+  .content-6-title {
+    font-size: 1.5em;
+    margin-bottom: 0.8333333333em;
+  }
+  .content-6-medium {
+    font-size: 2.25em;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .content-6-bottom {
+    font-size: 1.125em;
+    margin-bottom: 0.6666666667em;
+  }
+  .flow-reverse-8 {
+    flex-flow: row !important;
+  }
+}
